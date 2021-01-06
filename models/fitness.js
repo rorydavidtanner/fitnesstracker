@@ -4,12 +4,11 @@ const Schema = mongoose.Schema;
 
 const fitnessSchema = new Schema(
   {
-    Continue Workout: {
+    ContinueWorkout: {
       type: button,
     },
-    New Workout: {
+    NewWorkout: {
       type: button,
-      required: 
     },
   }
 );
